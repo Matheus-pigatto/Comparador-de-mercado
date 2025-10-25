@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "name": "Python: Executar main.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/main.py",
+        "console": "integratedTerminal",
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
+        },
+        "args": []
+      },
+      {
+        "name": "Python: Executar Test.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/mercados/atacadao/Test.py",
+        "console": "integratedTerminal",
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
+      },
+        "args": []
+      },
+      {
+        "name": "Python: Current File",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
+      },
+        "args": []
+      }
+    ]
+    
+  }
+

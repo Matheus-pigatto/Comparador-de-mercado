@@ -1,0 +1,33 @@
+# Teste corrigido
+import requests
+
+def testar_webshare_proxy():
+    # Sua API key está correta
+    api_key = "78eqnwoctd1vq19iutuu7vwngb5t72jyi4ebsvo6"
+    
+    # URL correta do Webshare (note o "p.webshare.io")
+    proxy_url = f"https://ipv4.webshare.io/"
+    
+    proxies = {
+        "http": "http://Tafokaproxy01:qrpiwu2311ks@23.95.150.145:6114/",
+        "https": "http://Tafokaproxy01:qrpiwu2311ks@23.95.150.145:6114/"
+    }
+    
+    try:
+        response = requests.get(
+            'http://httpbin.org/ip',  # Serviço que mostra seu IP
+            proxies=proxies,
+            timeout=10
+        )
+        print("✅ Proxy funcionando!")
+        print("Status code:", response.status_code)
+        print("Headers:", dict(response.headers))
+        print("Conteúdo:", response.text[:200])  # Primeiros 200 caracteres
+        return True
+    except Exception as e:
+        print(f"❌ Proxy não está funcionando: {e}")
+        return False
+
+# Execute o teste
+if __name__ == "__main__":
+    testar_webshare_proxy()

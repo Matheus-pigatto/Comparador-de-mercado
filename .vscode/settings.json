@@ -1,0 +1,12 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint.extensions.docparams"
+    ],
+    "python.linting.lintOnSave": true,
+    "editor.formatOnSave": true,
+    "python.linting.run": "onType",
+    "git.ignoreLimitWarning": true
+}

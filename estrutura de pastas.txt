@@ -1,0 +1,67 @@
+comparador_precos/x
+│
+├── config/x
+│   ├── __init__.py x
+│   ├── settings.py 
+│   └── mercados.json
+│
+├── data/x
+│   ├── raw/x
+│   ├── processed/x
+│   └── lists/x
+│
+├── db/x
+│   ├── __init__.py
+│   ├── shibata.db
+│   ├── carrefour.db
+│   └── mercado_livre.db
+│
+├── src/x
+│   ├── __init__.py
+│   │
+│   ├── core/x
+│   │   ├── __init__.pyx
+│   │   ├── coletor.py
+│   │   ├── comparador.py
+│   │   └── utils.py
+│   │
+│   ├── database/x
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── manager.py
+│   │
+│   ├── mercados/x
+│   │   ├── __init__.py
+│   │   │
+│   │   ├── shibata/x
+│   │   │   ├── __init__.py
+│   │   │   ├── login.py
+│   │   │   ├── api_client.py
+│   │   │   ├── scraper.py
+│   │   │   └── parser.py
+│   │   │
+│   │   ├── carrefour/x
+│   │   │   ├── __init__.py
+│   │   │   ├── login.py
+│   │   │   ├── api_client.py
+│   │   │   ├── scraper.py
+│   │   │   └── parser.py
+│   │   │
+│   │   └── ...                # Outros mercados futuros
+│   │
+│   └── main.py
+│
+├── streamlit_app/x
+│   ├── pages/x
+│   │   ├── __init__.py
+│   │   ├── home.py
+│   │   ├── comparar_listas.py
+│   │   └── historico_precos.py
+│   │
+│   └── app.py
+│
+├── logs/x
+│   └── app.log
+│
+├── requirements.txt
+└── README.md

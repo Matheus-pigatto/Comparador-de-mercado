@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Comparador-de-mercado",
+			"path": "Comparador-de-mercado"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
