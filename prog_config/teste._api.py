@@ -3,7 +3,7 @@ import requests
 
 def testar_webshare_proxy():
     # Sua API key está correta
-    api_key = "78eqnwoctd1vq19iutuu7vwngb5t72jyi4ebsvo6"
+    api_key = #inserir a chave da API
     
     # URL correta do Webshare (note o "p.webshare.io")
     proxy_url = f"https://ipv4.webshare.io/"
