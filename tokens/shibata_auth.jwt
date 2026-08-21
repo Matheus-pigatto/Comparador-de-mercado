@@ -1,5 +1,4 @@
 {
-   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJ2aXBjb21tZXJjZSIsImF1ZCI6ImFwaS1hZG1pbiIsInN1YiI6IjZiYzQ4NjdlLWRjYTktMTFlOS04NzQyLTAyMGQ3OTM1OWNhMCIsInZpcGNvbW1lcmNlQ2xpZW50ZUlkIjoiMzFlMzZlYzYtZjI5Mi0xMWVjLWI1NGYtMGE5NzEyMTU1ZDQ5IiwiaWF0IjoxNzUxNDE1NzYxLCJ2ZXIiOjEsImNsaWVudCI6MTc5NTAsIm9wZXJhdG9yIjpudWxsLCJvcmciOiIxNjEifQ.4fgDxGFcc_j7amfUFb8rSk-PMBES3FPY42wlHYQjmOQoq02u1AUeTbfcUlIKG5xjUryjNgIcUypnKJW-CzlRAQ"
-   ,"sessao-id": "86444c1020ad4ace43d6e5e060a59300"
-              
+   "token": #inserir o token da sessão
+   ,"sessao-id": #inserir o id da sessao               
 }
