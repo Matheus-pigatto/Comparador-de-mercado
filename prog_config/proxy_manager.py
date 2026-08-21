@@ -2,11 +2,11 @@ import requests
 from src.core.utils import delay_inteligente
 
 # ✅ Proxy que está funcionando
-PROXY_USERNAME = "Tafokaproxy01"
-PROXY_PASSWORD = "qrpiwu2311ks"
+PROXY_USERNAME = #usuario do proxy
+PROXY_PASSWORD = #senha do proxy
 PROXY_IP = "23.95.150.145"
 PROXY_PORT = "6114"
-api_key = "78eqnwoctd1vq19iutuu7vwngb5t72jyi4ebsvo6"
+api_key = #chave api
 
 PROXY_URL = f"http://{PROXY_USERNAME}:{PROXY_PASSWORD}@{PROXY_IP}:{PROXY_PORT}/"
 
