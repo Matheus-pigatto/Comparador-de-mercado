@@ -9,8 +9,8 @@ def testar_webshare_proxy():
     proxy_url = f"https://ipv4.webshare.io/"
     
     proxies = {
-        "http": "http://Tafokaproxy01:qrpiwu2311ks@23.95.150.145:6114/",
-        "https": "http://Tafokaproxy01:qrpiwu2311ks@23.95.150.145:6114/"
+        "http": ,#insira a URL do proxy http
+        "https": #insira a URL do proxy https 
     }
     
     try:
